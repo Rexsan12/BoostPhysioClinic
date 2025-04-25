@@ -216,7 +216,7 @@ public class BookingSystem {
                         && a.getStatus() == AppointmentStatus.BOOKED)
                 .collect(Collectors.toList());
         if (booked.isEmpty()) {
-            System.out.println("No bookings.");
+            System.out.println("No bookings found");
             return;
         }
         for (int i = 0; i < booked.size(); i++) {
