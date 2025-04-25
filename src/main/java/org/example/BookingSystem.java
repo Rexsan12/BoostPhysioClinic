@@ -258,6 +258,7 @@ public class BookingSystem {
                         && a.getPatient().getId().equals(pid)
                         && a.getStatus() == AppointmentStatus.BOOKED)
                 .collect(Collectors.toList());
+
         if (list.isEmpty()) {
             System.out.println("None to cancel.");
             return;
