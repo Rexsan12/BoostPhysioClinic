@@ -33,9 +33,9 @@ class BookingSystemTest {
 
     @Test
     void testBookByPhysiotherapist_SuccessAndFail() {
-        assertTrue(system.bookByPhysiotherapist("Dr. Helen", "PT2"));
+        assertTrue(system.bookByPhysiotherapist("Dr. Rex", "PT2"));
         assertFalse(system.bookByPhysiotherapist("Unknown", "PT2"));
-        assertFalse(system.bookByPhysiotherapist("Dr. Helen", "BAD"));
+        assertFalse(system.bookByPhysiotherapist("Dr. Rex", "BAD"));
     }
 
     @Test
