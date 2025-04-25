@@ -305,7 +305,7 @@ public class BookingSystem {
                 .sorted((a, b) -> Long.compare(countAttended(b), countAttended(a)))
                 .forEach(p ->
                         System.out.println(p.getFullName()
-                                + " - Attended: " + countAttended(p)));
+                                + " --- Attended: " + countAttended(p)));
     }
 
     private long countAttended(Physiotherapist p) {
