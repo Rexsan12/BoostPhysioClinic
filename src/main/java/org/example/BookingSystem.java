@@ -14,7 +14,7 @@ public class BookingSystem {
         setupSampleData();
         int choice;
         do {
-            System.out.println("\n===== Boost Physio Clinic =====");
+            System.out.println("\n*****===== Boost Physio Clinic =====****");
             System.out.println("1. Patient Management");
             System.out.println("2. View Physios & Treatments");
             System.out.println("3. Book Appointment");
