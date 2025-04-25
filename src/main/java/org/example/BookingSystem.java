@@ -55,7 +55,7 @@ public class BookingSystem {
     }
 
     public void setupSampleData() {
-        Physiotherapist p1 = new Physiotherapist("PH001", "Dr. Helen", "1 Street", "1234567890");
+        Physiotherapist p1 = new Physiotherapist("PH001", "Dr. Rex", "1 Street", "1234567890");
         Physiotherapist p2 = new Physiotherapist("PH002", "Dr. John", "2 Avenue", "0987654321");
         Physiotherapist p3 = new Physiotherapist("PH003", "Dr. Lucy", "3 Blvd", "5556667777");
 

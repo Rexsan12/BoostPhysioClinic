@@ -9,7 +9,7 @@ class PhysiotherapistTest {
 
     @BeforeEach
     void setUp() {
-        physiotherapist = new Physiotherapist("PH001", "Dr. Helen", "1 Street", "1234567890");
+        physiotherapist = new Physiotherapist("PH001", "Dr. Rex", "1 Street", "1234567890");
     }
 
     @Test
