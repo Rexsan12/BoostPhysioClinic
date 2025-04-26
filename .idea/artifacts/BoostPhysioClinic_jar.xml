@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BoostPhysioClinic:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BoostPhysioClinic_jar</output-path>
+    <root id="archive" name="BoostPhysioClinic.jar">
+      <element id="module-output" name="BoostPhysioClinic" />
+    </root>
+  </artifact>
+</component>
